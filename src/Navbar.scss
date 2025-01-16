@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+}
+nav{
+    position: sticky;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    background-color:  rgb(148, 2, 2);
+    color: white;
+    margin-bottom: 0.5em;
+    .nav-form{
+        color: black;
+        position: relative;
+        .input{
+            padding-left: 10%;
+        }
+        .search{
+            position: absolute;
+            top: 20%;
+            left:6%;
+            font-size: 1.5em;
+            color: rgb(148, 2, 2);
+        }
+    }
+    .nav-content{
+        padding: 0;
+        margin: 0;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    }
+    .nav-tags{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0.6em;
+      
+        span{
+            margin-left:0.2em ;
+        }
+    }
+    .profile{
+        position: relative;
+    }
+    .indicat-btn{
+        position: absolute;
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: green;
+        top: 3px;
+        right: 0;
+    }
+    .nav-tags:hover  span , .icons{
+        color: black;
+    }
+}
+@media screen and  (max-width:576px) {
+    nav{
+        top: -2.50em;
+        .nav-content{
+            width: 100;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            color: black;
+        }
+        .nav-content{
+            border-top: 1px solid gainsboro;
+            background-color: white;
+            padding: 0.2em 1.6em;
+            margin-top: 0.3em;
+        }
+        .nav-tags{
+            flex-direction: column;
+            color: black;
+            }
+            .icons{
+                font-size: 1.4em;
+                color: black;
+            }
+            span{
+                font-size: 0.7em;
+                font-weight: 400;
+                color: black;
+            }
+        .nav-tags.active svg{
+            color: rgb(148, 2, 2);
+        }
+        }
+    }
+

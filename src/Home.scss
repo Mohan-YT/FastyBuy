@@ -1,0 +1,8 @@
+.Carousel-Item img{
+    width: 100%;
+}
+@media screen and (min-width:768px) {
+    .Carousel-Item img{
+        height: 70vh;
+    }
+}

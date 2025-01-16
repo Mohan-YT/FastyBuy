@@ -1,0 +1,42 @@
+main{
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+    }
+    .head-box{
+        .nav-btn{
+            border-radius:10px ;
+        }
+        .btn{
+            transition: all 0.6s ease;
+            border: 1px solid gray;
+            border-radius: 10px;
+            button{
+                background-color: transparent;
+            }
+        }
+        .btn:hover{
+            background-color: rgb(148, 2, 2);
+            color: white;
+        }
+    }
+}
+//order page
+.order-link{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+@media screen and (min-width:768px) {
+    //order page
+    .order-link{
+        height: 200px;
+        .image{
+            height: 200px;
+            img{
+                height: 200px;
+            }
+        }
+
+    }
+}

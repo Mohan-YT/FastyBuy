@@ -1,0 +1,60 @@
+
+main{
+    overflow-x: hidden;
+    .collection{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        h3:first-child{
+            color:rgb(148, 2, 2) ;
+            font-weight: 500;
+            font-size: 1.2em;
+        }
+    }
+    .content-box{
+        position: relative;
+        a{ 
+            padding: 0.3em;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+            text-decoration: none;
+            color: black;
+            height:400px;
+            margin-bottom: 0.5em;
+            border: 1px solid whitesmoke;
+            .image{
+                background-color: whitesmoke;
+                border-radius: 10px;
+                height: 220px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    height: 220px;
+                }
+            }
+
+            .details{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: start;
+                line-height: 1em;
+                .Ind-rupee{
+                    font-size: 0.5em;
+                    color: gray;
+                }
+            }
+            span{
+                margin-right: 0.6em;
+            }
+        }
+        .heart{
+            position: absolute;
+            top: 12px;
+            right: 23px;
+        }
+    }
+
+}

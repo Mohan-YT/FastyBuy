@@ -1,0 +1,730 @@
+{
+    "slids" : [
+            {
+                "id" : 101 ,
+                "image" : "/images/froots.jpg",
+                "text" : "froots"
+            },
+            {
+                "id" : 102 ,
+                "image" : "/images/vegitables.jpg",
+                "text" : "vegitables"
+            },
+            {
+                "id" : 103 ,
+                "image" : "/images/womens.jpg",
+                "text" : "women-dress-collection"
+            },
+            {
+                "id" : 104 ,
+                "image" : "/images/kids.jpg",
+                "text" : "kids-dress-collection"
+            },
+            {
+                "id" : 105 ,
+                "image" : "/images/mens.jpg",
+                "text" : "mens-dress-collection"
+            },
+            {
+                "id" : 106 ,
+                "image" : "/images/appliances.jpg",
+                "text" : "appliences"
+            }
+        ],
+        "logo" : [
+            {
+                "id" : 107,
+                "image" : "/images/kids-logo.jpg",
+                "text" : "Kids-Fashion"
+            },
+            {
+                "id" : 108,
+                "image" : "/images/mens-logo.jpg",
+                "text" : "Mens-Fashion"
+            },
+            {
+                "id" : 109,
+                "image" : "./images/womens-logo.jpg",
+                "text" : "Womens-Fashion"
+            },
+            {
+                "id" : 110,
+                "image" : "./images/homeappliance-logo.jpg",
+                "text" : "Home-Appliances"
+            },
+            {
+                "id" : 111,
+                "image" : "./images/Fruitslogo.jpg",
+                "text" : "Fresh-Fruits"
+            },
+            {
+                "id" : 112,
+                "image" : "./images/vegitables-logo.jpg",
+                "text" : "Fresh-Vegitables"
+            }
+        ],
+        "content" : [
+            {
+                "all" : [
+                    {
+                        "id" : 1,
+                        "image" : "/images/beetroot.png",
+                        "title" : "Fresh Beetroot",
+                        "key" : "veg",
+                        "h3" : "",
+                        "discription" : "Vegitables-fresh beetroot(kg) ",
+                        "price" : 20,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 2,
+                        "image" : "/images/brinjal.png",
+                        "title" : "Fresh Brinjal",
+                        "key" : "veg",
+                        "h3" : "",
+                        "discription" : "Vegitables-fresh brinjal(kg) ",
+                        "price" : 20,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 3,
+                        "image" : "/images/carrot.png",
+                        "title" : "Fresh Carrot",
+                        "key" : "veg",
+                        "h3" : "",
+                        "discription" : "Vegitables-fresh carrot(kg)",
+                        "price" : 22,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 4,
+                        "image" : "/images/cauliflower.png",
+                        "title" : "Fresh Cauliflower",
+                        "key" : "veg",
+                        "h3" : "",
+                        "discription" : "Vegitables-fresh cauliflower(kg)",
+                        "price" : 30,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 5,
+                        "image" : "/images/green-beans.png",
+                        "title" : "Fresh Green-Beans",
+                        "key" : "veg",
+                        "h3" : "",
+                        "discription" : "Vegitables-fresh green-beans(kg)",
+                        "price" : 15,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 6,
+                        "image" : "/images/okra.png",
+                        "title" : "Fresh Okra",
+                        "key" : "veg",
+                        "h3" : "",
+                        "discription" : "Vegitables-fresh okra(kg)",
+                        "price" : 19,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 7,
+                        "image" : "/images/tometos.png",
+                        "title" : "Fresh Tometos",
+                        "key" : "veg",
+                        "h3" : "",
+                        "discription" : "Vegitables-fresh tometos(kg)",
+                        "price" : 19,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 8,
+                        "image" : "/images/grapes.png",
+                        "title" : "Fresh Grapes",
+                        "key" : "fruit",
+                        "h3" : "",
+                        "discription" : "Fruits-fresh grapes(kg)",
+                        "price" : 59,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 9,
+                        "image" : "/images/green-apple.png",
+                        "title" : "Fresh Green-Apple",
+                        "key" : "fruit",
+                        "h3" : "",
+                        "discription" : "Fruits-fresh green-apple(kg)",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 10,
+                        "image" : "/images/guava.png",
+                        "title" : "Fresh Guava",
+                        "key" : "fruit",
+                        "h3" : "",
+                        "discription" : "Fruits-fresh guava(kg)",
+                        "price" : 119,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 11,
+                        "image" : "/images/mangos.png",
+                        "title" : "Fresh Mangos",
+                        "key" : "fruit",
+                        "h3" : "",
+                        "discription" : "Fruits-fresh mangos(kg)",
+                        "price" : 99,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 12,
+                        "image" : "/images/papaya.png",
+                        "title" : "Fresh Papaya",
+                        "key" : "fruit",
+                        "h3" : "",
+                        "discription" : "Fruits-fresh papaya(kg)",
+                        "price" : 89,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 13,
+                        "image" : "/images/pineapple.png",
+                        "title" : "Fresh Pineapple",
+                        "key" : "fruit",
+                        "h3" : "",
+                        "discription" : "Fruits-fresh pineapple(kg)",
+                        "price" : 99,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 14,
+                        "image" : "/images/pomegranate-fruit.png",
+                        "title" : "Fresh Pomegranate",
+                        "key" : "fruit",
+                        "h3" : "",
+                        "discription" : "Fruits-fresh pomegranate(kg)",
+                        "price" : 89,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 15,
+                        "image" : "/images/gadget-1.png",
+                        "title" : "HeadPhone",
+                        "key" : "home",
+                        "h3" : "",
+                        "discription" : "Computer Components-gadget-Headsets",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 16,
+                        "image" : "/images/home-2.png",
+                        "title" : "Washing Mechine 7star black",
+                        "key" : "home",
+                        "h3" : "",
+                        "discription" : "Home Appliances-washing mechine 7star",
+                        "price" : 19999,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 18,
+                        "image" : "/images/home-6.png",
+                        "title" : "Mixer Grinder",
+                        "key" : "home",
+                        "h3" : "",
+                        "discription" : "Home Appliances-Mixer Grinder",
+                        "price" : 1999,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 19,
+                        "image" : "/images/home-7.png",
+                        "title" : "Juicer Mixer Grinder",
+                        "key" : "home",
+                        "h3" : "",
+                        "discription" : "Home Appliances-Mixer Juicer Grinder",
+                        "price" : 1499,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 20,
+                        "image" : "/images/home-4.png",
+                        "title" : "LG Fridge 7star",
+                        "key" : "home",
+                        "h3" : "",
+                        "discription" : "Home Appliances-lg fridge 7star",
+                        "price" : 29999,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 21,
+                        "image" : "/images/home-15.png",
+                        "title" : "Sony Smart TV",
+                        "key" : "home",
+                        "h3" : "",
+                        "discription" : "Home Appliances-sony smart tv ",
+                        "price" : 34999,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 22,
+                        "image" : "/images/home-14.png",
+                        "title" : "Xiaomi Smart TV",
+                        "key" : "home",
+                        "h3" : "",
+                        "discription" : "Home Appliances-xiaomi smart tv",
+                        "price" : 27999,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 23,
+                        "image" : "/images/kid-2.png",
+                        "title" : "Kid Gurthis ",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-boy gurthis size age:9-15",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 24,
+                        "image" : "/images/kid-3.png",
+                        "title" : "Kid Gurthis ",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-boy gurthis size age:9-15",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 25,
+                        "image" : "/images/kid-4.png",
+                        "title" : "Kid goat shot ",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-boy goat shot size age:9-15",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 26,
+                        "image" : "/images/kid-6.png",
+                        "title" : "Kid girl white top ",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-girl white top size age:9-15",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 27,
+                        "image" : "/images/kid-7.png",
+                        "title" : "Baby top",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-baby top size age:1-5",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 28,
+                        "image" : "/images/kid-8.png",
+                        "title" : "Baby top",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-baby top size age:1-5",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 29,
+                        "image" : "/images/toy-2.png",
+                        "title" : "Toy JCB",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-Toys-jcb plastic",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 30,
+                        "image" : "/images/toy-6.png",
+                        "title" : "Toy Van",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-Toys-van plastic",
+                        "price" : 99,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 31,
+                        "image" : "/images/toy-11.png",
+                        "title" : "Toy Turtle",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-Toys-turtle doll",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 32,
+                        "image" : "/images/toy-12.png",
+                        "title" : "Toy tiger",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-Toys-tiger doll",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 33,
+                        "image" : "/images/toy-9.png",
+                        "title" : "Toy girl",
+                        "key" : "kid",
+                        "h3" : "",
+                        "discription" : "Kids Zone-Toys-girl plastic",
+                        "price" : 299,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 34,
+                        "image" : "/images/women-2.png",
+                        "title" : "Open Top",
+                        "key" : "women",
+                        "h3" : "",
+                        "discription" : "Womens fashion-open top size -m,l,xl,xxl",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 35,
+                        "image" : "/images/women-3.png",
+                        "title" : "Full Top",
+                        "key" : "women",
+                        "h3" : "",
+                        "discription" : "Womens fashion-open top size -m,l,xl,xxl",
+                        "price" : 299,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 36,
+                        "image" : "/images/women-4.png",
+                        "title" : "Full Top",
+                        "key" : "women",
+                        "h3" : "",
+                        "discription" : "Womens fashion-open top size -m,l,xl,xxl",
+                        "price" : 299,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 37,
+                        "image" : "/images/women-7.png",
+                        "title" : "syntatic top",
+                        "key" : "women",
+                        "h3" : "",
+                        "discription" : "Womens fashion-open top size -m,l,xl,xxl",
+                        "price" : 299,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 38,
+                        "image" : "/images/women-8.png",
+                        "title" : "Full Top",
+                        "key" : "women",
+                        "h3" : "",
+                        "discription" : "Womens fashion-open top size -m,l,xl,xxl",
+                        "price" : 299,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 39,
+                        "image" : "/images/men-2.png",
+                        "title" : "Meroon Shirt",
+                        "key" : "men",
+                        "h3" : "",
+                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 40,
+                        "image" : "/images/men-3.png",
+                        "title" : "Meroon T-Shirt",
+                        "key" : "men",
+                        "h3" : "",
+                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "price" : 99,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 41,
+                        "image" : "/images/men-6.png",
+                        "title" : "White Shirt",
+                        "key" : "men",
+                        "h3" : "",
+                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "price" : 199,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 42,
+                        "image" : "/images/men-10.png",
+                        "title" : "White Shirt with Jocket",
+                        "key" : "men",
+                        "h3" : "",
+                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "price" : 399,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 43,
+                        "image" : "/images/men-12.png",
+                        "title" : "Black Goat Shot ",
+                        "key" : "men",
+                        "h3" : "",
+                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "price" : 499,
+                        "offer" : "61%"
+                    },
+                    {
+                        "id" : 44,
+                        "image" : "/images/men-9.png",
+                        "title" : "Casual shirt ",
+                        "key" : "men",
+                        "h3" : "",
+                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "price" : 199,
+                        "offer" : "61%"
+                    }
+                ],    
+                "boxOne" : [
+                    {
+                        "id" : 45,
+                        "image" : "/images/gadget-2.png",
+                        "title" : "HeadPhone",
+                        "key" : "home",
+                        "h3" : "from-399",
+                        "discription" : "Computer Components-gadget-Headsets",
+                        "price" : 299,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 46,
+                        "image" : "/images/gadget-3.png",
+                        "h3" : "from-299",
+                        "title" : "Airbuds",
+                        "key" : "home",
+                        "discription" : "Computer Components-gadget-Airbuds",
+                        "price" : 499,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 47,
+                        "image" : "/images/home-9.png",
+                        "title" : "Juicer Mixer Grinder",
+                        "key" : "home",
+                        "h3" : "from-1999",
+                        "discription" : "Home Appliances-Mixer Juicer Grinder",
+                        "price" : 3999,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 48,
+                        "image" : "/images/home-10.png",
+                        "title" : "Mixer Grinder",
+                        "key" : "home",
+                        "h3" : "from-299",
+                        "discription" : "Home Appliances-Grinder",
+                        "price" : 2999,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 49,
+                        "image" : "/images/toy-5.png",
+                        "title" : "Dall-purple",
+                        "key" : "toy",
+                        "h3" : "from-299",
+                        "discription" : "Kids Zone-Dall-puple color ",
+                        "price" : 499,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 50,
+                        "image" : "/images/toy-3.png",
+                        "title" : "Helicopter toy",
+                        "key" : "toy",
+                        "h3" : "from-199",
+                        "discription" : "Kids Zone-Remote Control Aeroplane and Helicopter",
+                        "price" : 499,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 51,
+                        "image" : "/images/toy-13.png",
+                        "title" : "Train Engine",
+                        "key" : "toy",
+                        "h3" : "from-399",
+                        "discription" : "Kids Zone-Plstic Train Engine",
+                        "price" : 199,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 52,
+                        "image" : "/images/toy-1.png",
+                        "title" : "Elecsera Santa Claus Riding",
+                        "key" : "toy",
+                        "h3" : "from-499",
+                        "discription" : "Kids Zone-Elecsera Santa Claus Riding",
+                        "price" : 299,
+                        "offer" : "32%"
+                    }
+                ],
+                "boxTwo" : [
+                    {
+                        "id" : 53,
+                        "image" : "/images/phone-11.png",
+                        "title" : "Iphone 16 ProMax",
+                        "key" : "home",
+                        "h3" : "from-1,10,999",
+                        "discription" : "Computer Components-gadget/mobiles",
+                        "price" : 120999,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 54,
+                        "image" : "/images/phone-5.png",
+                        "title" : "Vivo v28 Pro",
+                        "key" : "home",
+                        "h3" : "from-28999",
+                        "discription" : "Computer Components-gadget-mobiles",
+                        "price" : 29999,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 55,
+                        "image" : "/images/phone-7.png",
+                        "title" : "Xiaomi 14 Ultra",
+                        "key" : "home",
+                        "h3" : "from-26999",
+                        "discription" : "Computer Components-gadget-mobiles",
+                        "price" : 32999,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 56,
+                        "image" : "/images/home-11.png",
+                        "title" : "Samsung TV",
+                        "key" : "home",
+                        "h3" : "from-18999",
+                        "discription" : "Home Appliances-samsung tv",
+                        "price" : 24999,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 57,
+                        "image" : "/images/home-16.png",
+                        "title" : "Samsung Neo TV",
+                        "key" : "home",
+                        "h3" : "from-37999",
+                        "discription" : "Home Appliances-samsung tv",
+                        "price" : 52499,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 58,
+                        "image" : "/images/home-1.png",
+                        "title" : "Washing Mechine 7star",
+                        "key" : "home",
+                        "h3" : "from-19999",
+                        "discription" : "Home Appliances-washing mechine 7star",
+                        "price" : 32499,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 59,
+                        "image" : "/images/home-17.png",
+                        "title" : "LG Fridge 5star",
+                        "key" : "home",
+                        "h3" : "from-15999",
+                        "discription" : "Home Appliances-lg fridge 5star",
+                        "price" : 19499,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 60,
+                        "image" : "/images/home-20.png",
+                        "title" : "Washing Mechine 7star",
+                        "key" : "home",
+                        "h3" : "from-21999",
+                        "discription" : "Home Appliances-washine mechine",
+                        "price" : 20499,
+                        "offer" : "32%"
+                    }
+                ],
+                "fashion" : [
+                    {
+                        "id" : 61,
+                        "image" : "/images/men-1.png",
+                        "title" : "Mens Goat",
+                        "key" : "men",
+                        "h3" : "goat",
+                        "discription" : "Mens fashion-goat size -m,l,xl,xxl",
+                        "price" : 499,
+                        "offer" : "32%"
+                    },
+                    {
+                        "id" : 62,
+                        "image" : "/images/men-5.png",
+                        "title" : "Mens Checked Shirt",
+                        "key" : "men",
+                        "h3" : "checked-shirt",
+                        "discription" : "Mens fashion-checked shirt size -m,l,xl,xxl",
+                        "price" : 299,
+                        "offer" : "28%"
+                    },
+                    {
+                        "id" : 63,
+                        "image" : "/images/women-5.png",
+                        "title" : "Womens Frock",
+                        "key" : "women",
+                        "h3" : "frock",
+                        "discription" : "Womens fashion-frock size -m,l,xl,xxl",
+                        "price" : 399,
+                        "offer" : "48%"
+                    },
+                    {
+                        "id" : 64,
+                        "image" : "/images/women-11.png",
+                        "title" : "Women Wrap Blue dress",
+                        "key" : "women",
+                        "h3" : "top",
+                        "discription" : "Womens fashion-wrap dress size -m,l,xl,xxl",
+                        "price" : 399,
+                        "offer" : "50%"
+                    },
+                    {
+                        "id" : 65,
+                        "image" : "/images/kid-16.png",
+                        "title" : "Kids Phant & Shit",
+                        "key" : "kid",
+                        "h3" : "kid-fashion",
+                        "discription" : "Kids Zone-boy phan & shirt size age:9-15",
+                        "price" : 199,
+                        "offer" : "67%"
+                    },
+                    {
+                        "id" : 66,
+                        "image" : "/images/kid-11.png",
+                        "title" : "Girl kid Ubrella",
+                        "key" : "kid",
+                        "h3" : "kid-frog",
+                        "discription" : "Kids Zone-girl kid ubrella size age:9-15",
+                        "price" : 199,
+                        "offer" : "61%"
+                    }
+                ]
+                
+            }
+            
+        ]
+}
