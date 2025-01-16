@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from 'react'
+import React, { useEffect, useState, useMemo} from 'react'
 import {FormControl} from 'react-bootstrap'
 import { IoIosSearch } from "react-icons/io";
 import { useNavigate } from 'react-router-dom';
@@ -7,8 +7,16 @@ import './Navbar.scss'
 const Search = ({search,setSearch}) => {
   const [placeholder,setPlaceholder] = useState('');
   const [current,setCurrent] = useState(0)
-  const array = ['Kids Zone', 'Mens Fashion', 'Womens Fashion', 'Mobiles', 'Gadgets', 'Home Appliances', 'Fresh Fruits', 'Fresh Vegitables'];
-  const navigate = useNavigate();
+  const array = useMemo(() => [
+    'Kids Zone',
+    'Mens Fashion',
+    'Womens Fashion',
+    'Mobiles',
+    'Gadgets',
+    'Home Appliances',
+    'Fresh Fruits',
+    'Fresh Vegetables',
+  ], []);  const navigate = useNavigate();
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrent((prev) => (prev + 1) % array.length);
