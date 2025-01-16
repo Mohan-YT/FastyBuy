@@ -9,14 +9,18 @@ const Search = ({search,setSearch}) => {
   const [current,setCurrent] = useState(0)
   const array = ['Kids Zone', 'Mens Fashion', 'Womens Fashion', 'Mobiles', 'Gadgets', 'Home Appliances', 'Fresh Fruits', 'Fresh Vegitables'];
   const navigate = useNavigate();
-  useEffect(()=>{
-     setInterval(()=>{
-        setCurrent((pre)=>(pre + 1) % array.length)
-      },2500)
-  },[array.length])
-  useEffect(()=>{
-    setPlaceholder(array[current])
-  },[array[current]])
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % array.length);
+    }, 2500);
+
+    // Cleanup function to clear the interval
+    return () => clearInterval(intervalId);
+  }, [array.length]);
+
+  useEffect(() => {
+    setPlaceholder(array[current]);
+  }, [array, current]); // Include `array` and `current` in dependencies
 
   const handleInputFocus = () => {
 
