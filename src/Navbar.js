@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom"; // Use Link for routing
 import { MdAccountCircle, MdWindow } from "react-icons/md";
 import { FaCartShopping } from "react-icons/fa6";

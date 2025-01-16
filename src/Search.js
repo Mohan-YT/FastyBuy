@@ -13,10 +13,10 @@ const Search = ({search,setSearch}) => {
      setInterval(()=>{
         setCurrent((pre)=>(pre + 1) % array.length)
       },2500)
-  },[])
+  },[array.length])
   useEffect(()=>{
     setPlaceholder(array[current])
-  },[current])
+  },[array[current]])
 
   const handleInputFocus = () => {
 
