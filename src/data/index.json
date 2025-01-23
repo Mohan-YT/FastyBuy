@@ -452,7 +452,7 @@
                         "title" : "Meroon T-Shirt",
                         "key" : "men",
                         "h3" : "",
-                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "discription" : "Mens fashion-shirt phant and t-shirt size -m,l,xl,xxl",
                         "price" : 99,
                         "offer" : "61%"
                     },
@@ -462,7 +462,7 @@
                         "title" : "White Shirt",
                         "key" : "men",
                         "h3" : "",
-                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "discription" : "Mens fashion-shirt phant and t-shirt size -m,l,xl,xxl",
                         "price" : 199,
                         "offer" : "61%"
                     },
@@ -472,17 +472,17 @@
                         "title" : "White Shirt with Jocket",
                         "key" : "men",
                         "h3" : "",
-                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "discription" : "Mens fashion-shirt phant and t-shirt size -m,l,xl,xxl",
                         "price" : 399,
                         "offer" : "61%"
                     },
                     {
                         "id" : 43,
                         "image" : "/images/men-12.png",
-                        "title" : "Black Goat Shot ",
+                        "title" : "Black Goat Shoot ",
                         "key" : "men",
                         "h3" : "",
-                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "discription" : "Mens fashion-shirt phant and t-shirt size -m,l,xl,xxl",
                         "price" : 499,
                         "offer" : "61%"
                     },
@@ -492,7 +492,7 @@
                         "title" : "Casual shirt ",
                         "key" : "men",
                         "h3" : "",
-                        "discription" : "Mens fashion-shirt phan and t-shirt size -m,l,xl,xxl",
+                        "discription" : "Mens fashion-shirt phant and t-shirt size -m,l,xl,xxl",
                         "price" : 199,
                         "offer" : "61%"
                     }
@@ -668,7 +668,7 @@
                         "title" : "Mens Goat",
                         "key" : "men",
                         "h3" : "goat",
-                        "discription" : "Mens fashion-goat size -m,l,xl,xxl",
+                        "discription" : "Mens fashion-dress, goat size - m,l,xl,xxl",
                         "price" : 499,
                         "offer" : "32%"
                     },
@@ -708,7 +708,7 @@
                         "title" : "Kids Phant & Shit",
                         "key" : "kid",
                         "h3" : "kid-fashion",
-                        "discription" : "Kids Zone-boy phan & shirt size age:9-15",
+                        "discription" : "Kids Zone-boy phant & shirt size age:9-15",
                         "price" : 199,
                         "offer" : "67%"
                     },

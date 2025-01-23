@@ -8,7 +8,7 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
     const { id } = useParams();  
 
     //wishlist page (use only product is in wishlist or not)
-    const wishlist = JSON.parse(localStorage.getItem('wishlist')) ||[]
+    const wishlist = JSON.parse(localStorage.getItem('wishlist')) || []
 
     // Find the product by ID. allItems.find() is used to find the specific product with the matching id. parseInt(id) used for convert 'id' to id
     const product = allItems.find(item => item.id === parseInt(id));  
@@ -51,7 +51,7 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
                 const updateOrders = [...order,getOrders]; //Add the current product to the order list
                 setOrder(updateOrders)
                 localStorage.setItem('Orders',JSON.stringify(updateOrders))  //Store the updated list to localStorage
-                // alert(`your Prodect ${product.title} is order placed`)
+                alert(`your Prodect ${product.title} is order placed`)
 
         } catch (error) {
             return(<p>{`Error adding product to order list: ${error.message}`}</p>)
@@ -61,7 +61,7 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
     const handleCancel = (uniqueId)=>{
         const updatedOrders = order.filter((orders) => orders.uniqueId !== uniqueId);
         localStorage.setItem('Orders', JSON.stringify(updatedOrders));
-        // alert(`Order for ${product.title} has been canceled.`);
+        alert(`Order for ${product.title} has been canceled.`);
         setOrder(updatedOrders)
     }
     const ckeckOrder = order.some((orders)=>orders.id === productData.id) //product.id is means curent taken product.id
@@ -71,7 +71,8 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
         e.preventDefault()
             try{
                 const getCart = JSON.parse(localStorage.getItem('Addcard')) || [];
-                const updateCart = [...getCart,{ ...productData, quantity: state.count }]
+                const updateCart = [...getCart,{ ...productData}]
+                alert(`Order for ${product.title} has been canceled.`);
                 localStorage.setItem('Addcard',JSON.stringify(updateCart))
             }catch(err){
                 return(<p>{`Error adding product to order list: ${err.message}`}</p>)
@@ -108,11 +109,11 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
                     <p className="col-12 description">{productData.discription || productData.description}</p>
                     <div className="">
                        <div className="d-flex justify-content-start align-items-center">
-                            <button className="btn text-center  fs-4 fw-bold" style={{backgroundColor : "whitesmoke"}} onClick={()=>dispatch({type:'increment'})}>+</button>
+                            <button className="btn text-center  fs-4 fw-bold" style={{backgroundColor : "whitesmoke"}} onClick={()=>dispatch({type:'decrement'})}>-</button>
 
                                     <span className="fs-2 fw-bold m-2">{state.count}</span>
 
-                            <button className="btn fs-4 fw-bold" style={{backgroundColor : "whitesmoke"}} onClick={()=>dispatch({type:'decrement'})}>-</button>
+                            <button className="btn fs-4 fw-bold" style={{backgroundColor : "whitesmoke"}} onClick={()=>dispatch({type:'increment'})}>+</button>
                        </div>
                         <span className="spanrice col-2 me-2 fs-4"> <span className="text-secondary fs-6 pe-1">₹</span>{productData.price}</span>
                         <span className="offer col-10 fs-1 text-success">{productData.offer}</span>

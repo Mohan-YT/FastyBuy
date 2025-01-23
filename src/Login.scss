@@ -1,0 +1,165 @@
+
+.login-main{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.login-main::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.468);
+    z-index:-100 ;
+}
+.login-main.show {
+    opacity: 1; 
+    transform: scale(1); 
+    z-index: 100000;
+}
+  
+.login-main.hide {
+    opacity: 0;
+    transform: scale(0.2);
+}
+.main-div{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    i{
+        position: absolute;
+        font-size: 4em;
+        top: -80px;
+        right: 0;
+        color: white;
+        font-weight: 400;
+    }
+}
+.form-main{
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    background:linear-gradient(to bottom,rgb(148,2,5),rgb(148,2,5),rgb(239, 73, 76) ) ;
+    border-radius: 10px;
+}
+#check{
+    display: none;
+}
+
+.signup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2em;
+}
+.form-main .input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    min-height: 65px;
+    margin:0;
+}
+.form-main .input-group .error{
+    font-size: 1em;
+    text-align: left;
+    width: 70%;
+    padding: 0 5px;
+    line-height: 16px;
+    color: rgb(255, 196, 0);
+
+}
+.form-main label{
+    color: white;
+    font-size: 2.5em;
+    justify-content: center;
+    display: flex;
+    margin: 22px;
+    font-weight:bolder;
+    cursor: pointer;
+    transition: all .8s ease-in-out;
+}
+.form-main input{
+    width: 70%;
+    height: 40px;
+    margin-top: 7px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px !important;
+}
+.form-main button{
+    width: 70%;
+    height: 40px;
+    margin: 10px  auto;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(150, 18, 20);
+    color: white;
+    font-size: 1.5em;
+    font-weight:800;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+.form-main button:hover{
+    background-color: whitesmoke;
+    color: rgb(148,2,5);
+    border: 1px solid rgb(148,2,5);
+}
+.login{
+    height: 450px;
+    background-color: white;
+    border-radius: 60%/10%;
+    transform: translateY(-95px);
+    transition: all .8s ease-in-out;
+}
+.login label{
+    color: rgb(148,2,5);
+    transform: scale(.6);
+}
+.login input{
+    border: 1px solid gray;
+}
+#check:checked ~ .login{
+    transform: translateY(-410px);
+}
+#check:checked ~ .login label{
+    transform: scale(1.3);
+}
+#check:checked ~ .signup label{
+    font-size: 1.3em;
+    transform: translateY(-10px);
+}
+@media (max-width: 600px) {
+    .main-div{
+        width: 90%;
+    }
+    .form-main {
+        width: 100%;
+        height: 420px;
+    }
+    .form-main .input-group .error{
+        width: 80%;
+        padding: 0 5px;
+        font-size: 0.8em;
+    }
+    .form-main input, .form-main button {
+        width: 80%;
+    }
+}

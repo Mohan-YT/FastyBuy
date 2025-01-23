@@ -1,6 +1,6 @@
 import React, { useState, useEffect  } from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import NavbarPage from "./Navbar";
 import MainCategories from "./MainCategories";
 import Home from "./Home";
@@ -11,6 +11,7 @@ import Wishlist from './Wishlist'
 import MyData from "./data/index.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProductDetails from "./ProductDetails";
+import Login from "./Login";
 
 function App() {
       const [error, setError] = useState(null);
@@ -63,27 +64,28 @@ function App() {
         setWishList(updatedWishlist);
       };
       
-      
-     
-      return (
-        <Router>
-          <NavbarPage search={search} setSearch={setSearch} />
-          <main>
-              {loading && <p className="fs-2 text-center">Loading Items...</p>}
-              {error && <p className="fs-2 text-center">{`Error : ${error}`}</p>}
-          </main>    
-          <Routes>
-            <Route path="/" element={<Home  />} />
-            <Route path="/categories" element={<MainCategories allItems={store} search={search} toggleWishList={toggleWishlist}/>} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/orders" element={<Orders  />} />
-            <Route path="/wishlist" element={<Wishlist />} />
-            <Route path="/product/:id" element={<ProductDetails allItems={store} wishlist={wishlist} toggleWishList={toggleWishlist} />} />
-            <Route path="/addcart" element={<AddCarts />} />
 
-          </Routes>
-        </Router>
-      );
+      
+
+      return (
+            <Router>
+              <NavbarPage search={search} setSearch={setSearch} />
+              <main>
+                  {loading && <p className="fs-2 text-center">Loading Items...</p>}
+                  {error && <p className="fs-2 text-center">{`Error : ${error}`}</p>}
+              </main>    
+              <Routes>
+                <Route path="/" element={<Home  />} />
+                <Route path="/categories" element={<MainCategories allItems={store} search={search} toggleWishList={toggleWishlist}/>} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/orders" element={<Orders  />} />
+                <Route path="/wishlist" element={<Wishlist />} />
+                <Route path="/product/:id" element={<ProductDetails allItems={store} wishlist={wishlist} toggleWishList={toggleWishlist} />} />
+                <Route path="/addcart" element={<AddCarts />} />
+                <Route path="/login" element={<Login />} />
+              </Routes>
+            </Router>
+        );
 }
 
 export default App;

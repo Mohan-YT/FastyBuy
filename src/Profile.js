@@ -4,7 +4,7 @@ import Orders from './Orders'
 import Wishlist from './Wishlist'
 import { NavLink } from 'react-router-dom'
 
-const Profile = () => {
+const Profile = ({handleShow}) => {
     const [isView,setIsView] = useState(true);
     const handleCheck1 = ()=>{
             setIsView(true)
@@ -12,13 +12,16 @@ const Profile = () => {
     const handleCheck2 = ()=>{
         setIsView(false)
     }
-
+   
   return (
     <>
         <main>
             <div>
                 <div className='d-flex head-box'>
-                    <button className='btn w-100 m-1 p-auto fs-3 fw-bolder '>Log in</button>
+                    <NavLink to="/login" className="w-100 m-1">
+                         <button className='btn w-100  p-auto fs-3 fw-bolder' onClick={handleShow}>Log in</button>
+                    </NavLink>
+                    
                 </div>
                 <div className='d-flex head-box'>
                     <NavLink onClick={handleCheck1} className=' w-100 m-1 nav-btn' style={{backgroundColor : isView ? 'rgb(148, 2, 2) ': 'transparent'}}>

@@ -57,7 +57,8 @@ const AddCarts = () => {
                             </Link>
                             <div className='col-7 px-1 py-2'>
                                 <h2>{item.title}</h2>
-                                <p>{item.discription || item.description}</p>
+                                <p className='text-secondary mb-1'>{item.discription || item.description}</p>
+                                {/* <p className='m-0'>Quantity : {item.quantity}</p> */}
                                 <p className='d-flex justify-content-start align-items-center'>
                                     <span className='text-secondary'>&#8377;</span><span className='me-2 '>{item.price}</span>
                                     <span className='fs-1 text-success fw-light'>{item.offer}</span>
