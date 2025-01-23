@@ -72,7 +72,7 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
             try{
                 const getCart = JSON.parse(localStorage.getItem('Addcard')) || [];
                 const updateCart = [...getCart,{ ...productData}]
-                alert(`Order for ${`"${product.title}"`} has been add to cart.`);
+                alert(`Order for ${`"${product.title}"`} has been add to carts.`);
                 localStorage.setItem('Addcard',JSON.stringify(updateCart))
             }catch(err){
                 return(<p>{`Error adding product to order list: ${err.message}`}</p>)
