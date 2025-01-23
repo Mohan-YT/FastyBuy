@@ -1,6 +1,6 @@
 import React, { useState, useEffect  } from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavbarPage from "./Navbar";
 import MainCategories from "./MainCategories";
 import Home from "./Home";
