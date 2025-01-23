@@ -17,7 +17,7 @@ const Orders = () => {
 
   return (
     <>
-      <main className='orderlist mb-5 mb-md-2'>
+      <main className='orderlist mb-5 pb-1 mb-md-2'>
           {
             orders.length === 0 ? ( <p className='text-center fs-3 text-secondary fw-light'>No Orders</p>) :(
               <div>

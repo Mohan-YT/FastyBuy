@@ -38,7 +38,7 @@
     i{
         position: absolute;
         font-size: 4em;
-        top: -80px;
+        top: -100px;
         right: 0;
         color: white;
         font-weight: 400;
@@ -67,7 +67,7 @@
     justify-content: start;
     align-items: center;
     width: 100%;
-    min-height: 65px;
+    min-height: 70px;
     margin:0;
 }
 .form-main .input-group .error{
@@ -91,7 +91,7 @@
 }
 .form-main input{
     width: 70%;
-    height: 40px;
+    height: 45px;
     margin-top: 7px;
     background-color: white;
     display: flex;
@@ -126,7 +126,7 @@
     height: 450px;
     background-color: white;
     border-radius: 60%/10%;
-    transform: translateY(-95px);
+    transform: translateY(-100px);
     transition: all .8s ease-in-out;
 }
 .login label{
@@ -137,7 +137,7 @@
     border: 1px solid gray;
 }
 #check:checked ~ .login{
-    transform: translateY(-410px);
+    transform: translateY(-440px);
 }
 #check:checked ~ .login label{
     transform: scale(1.3);
@@ -148,14 +148,14 @@
 }
 @media (max-width: 600px) {
     .main-div{
-        width: 90%;
+        width: 80%;
     }
     .form-main {
         width: 100%;
-        height: 420px;
+        height: 450px;
     }
     .form-main .input-group .error{
-        width: 80%;
+        width: 70%;
         padding: 0 5px;
         font-size: 0.8em;
     }

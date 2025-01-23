@@ -68,13 +68,14 @@ const Login = () => {
                     })
                   .catch((err)=> console.log(err.message))
 
-             navigate("/profile")
+             setSignUpData({
+                username : '',
+                email : '',
+                password : ''
+            })
+            navigate("/profile")
         }   
-        setSignUpData({
-            username : '',
-            email : '',
-            password : ''
-        })
+       
       }
       //login page
       const [logindata,setLogindata] = useState({
@@ -141,7 +142,12 @@ const Login = () => {
         if (Object.keys(errorFounded).length === 0) {
             setLoginError('')
             alert("Logged in successfully");
+            setLogindata({
+                 email : '',
+                password : ''
+            })
             navigate("/profile")
+
         }
       };
 

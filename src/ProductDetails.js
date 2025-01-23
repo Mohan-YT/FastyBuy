@@ -51,7 +51,7 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
                 const updateOrders = [...order,getOrders]; //Add the current product to the order list
                 setOrder(updateOrders)
                 localStorage.setItem('Orders',JSON.stringify(updateOrders))  //Store the updated list to localStorage
-                alert(`your Prodect ${product.title} is order placed`)
+                alert(`your Prodect ${`"${product.title}"`} is order placed`)
 
         } catch (error) {
             return(<p>{`Error adding product to order list: ${error.message}`}</p>)
@@ -61,7 +61,7 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
     const handleCancel = (uniqueId)=>{
         const updatedOrders = order.filter((orders) => orders.uniqueId !== uniqueId);
         localStorage.setItem('Orders', JSON.stringify(updatedOrders));
-        alert(`Order for ${product.title} has been canceled.`);
+        alert(`Order for ${`"${product.title}"`} has been canceled.`);
         setOrder(updatedOrders)
     }
     const ckeckOrder = order.some((orders)=>orders.id === productData.id) //product.id is means curent taken product.id
@@ -72,7 +72,7 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
             try{
                 const getCart = JSON.parse(localStorage.getItem('Addcard')) || [];
                 const updateCart = [...getCart,{ ...productData}]
-                alert(`Order for ${product.title} has been canceled.`);
+                alert(`Order for ${`"${product.title}"`} has been add to cart.`);
                 localStorage.setItem('Addcard',JSON.stringify(updateCart))
             }catch(err){
                 return(<p>{`Error adding product to order list: ${err.message}`}</p>)

@@ -10,7 +10,7 @@ const Wishlist = () => {
   },[])
   return (
     <>
-        <main className='mb-4 mb-md-2' >
+        <main className='mb-4 pb-1 mb-md-2' >
            { getwishlist.length === 0 ? (<p className='text-center'>Your Wishlist is Empty</p>) :(
             <div className='row'>
               {getwishlist.map((item)=>(

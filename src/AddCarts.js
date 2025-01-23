@@ -36,7 +36,7 @@ const AddCarts = () => {
         }, 0);
     };
     return (
-        <main>
+        <main className='pb-5 pb-sm-1 mb-2 mb-sm-1'>
             {addCart.length === 0 ? (
                 <p>No Items</p>
             ) : (
@@ -75,7 +75,7 @@ const AddCarts = () => {
                     ))}
                 </div>
             )}
-            <div className='text-center'>
+            <div className='text-center total'>
                 <h2 className='btn' style={{border : '1px solid gray', borderRadius : '5px'}}>Total Price : &#8377; <span className='fs-2 text-success fw-bold'>{totalOrderPrice()}</span></h2>
             </div>
         </main>
