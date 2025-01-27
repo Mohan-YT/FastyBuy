@@ -107,7 +107,7 @@ const Login = () => {
         }
         if(logindata.email && logindata.password){
             const foundAccount = L_account.find((data) => data.email.toLowerCase() === logindata.email.toLowerCase());
-
+            console.log(foundAccount.password)
             if (!foundAccount) {
                 LoginErrors.email = "Email is not matched";
             } else if (foundAccount.password !== logindata.password) {
