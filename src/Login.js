@@ -106,14 +106,28 @@ const Login = () => {
             LoginErrors.password = "Password is required"
         }
         if(logindata.email && logindata.password){
-            const foundAccount = L_account.find((data) => data.email.toLowerCase() === logindata.email.toLowerCase());
-            console.log(foundAccount.password)
-            if (!foundAccount) {
-                LoginErrors.email = "Email is not matched";
-            } else if (foundAccount.password !== logindata.password) {
-                LoginErrors.password = "Incorrect password";
+            try{
+                const foundAccount = L_account.find((data) => data.email.toLowerCase() === logindata.email.toLowerCase());
+
+                if (!foundAccount) {
+                    LoginErrors.email = "Email is not matched";
+                } 
+                
+                if (foundAccount.email !== logindata.email) { 
+                    LoginErrors.email = "Incorrect email";
+                }
+    
+                if (foundAccount.password !== logindata.password) { 
+                    LoginErrors.password = "Incorrect password";
+                }
+
+            }catch(e){
+                console.log(e.message)
             }
+             
         }
+
+       
         return LoginErrors;
       };
 
@@ -123,6 +137,7 @@ const Login = () => {
             ...prev,
             [name] : value
         }))
+
         setLoginError(() => {
             const updatedErrors = {};
             if (name === "email" && value) {
@@ -134,6 +149,7 @@ const Login = () => {
             return updatedErrors;
         });
       }
+      
       const handleLoginSubmit = (e) => {
         e.preventDefault();
         const errorFounded = loginvalidation();

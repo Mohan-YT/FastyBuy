@@ -16,13 +16,13 @@ const ProductDetails = ({ allItems, toggleWishList}) => {
     const [order,setOrder] = useState([])
 
     //manage quantity
-    const initialState = { count: 0 };
+    const initialState = { count: 1 };
     function Reducer(state, action) {
         switch (action.type) {
             case 'increment':
                 return { count: state.count < 10 ? state.count + 1 : state.count };
             case 'decrement':
-                return { count: state.count > 0 ? state.count - 1 : state.count };
+                return { count: state.count > 1 ? state.count - 1 : state.count };
             default:
                 return state;
         }
